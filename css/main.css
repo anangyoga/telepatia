@@ -2,6 +2,25 @@ body {
   font-family: "Rubik", sans-serif;
 }
 
+.btn-master, .btn-primary, .btn-secondary {
+  width: 160px;
+  height: 50px;
+  padding: 14px 26px 15px 25px;
+  border-radius: 10px;
+  font-weight: 600;
+  border: 0;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background: #563ad6;
+}
+
+.btn-secondary {
+  color: #777790;
+  background: #eaeaf4;
+}
+
 .navbar-tp {
   padding-top: 30px;
 }
@@ -20,7 +39,17 @@ body {
   font-weight: 400;
 }
 
+.sales {
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+.sales .copywriting {
+  padding-left: 90px;
+}
+
 .sales .copywriting .header {
+  margin-top: 100px;
   font-weight: 500;
   color: #02044a;
   font-size: 46px;
@@ -28,9 +57,11 @@ body {
 }
 
 .sales .copywriting .description {
+  margin-top: 20px;
+  margin-bottom: 40px;
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
-  color: #b4b5c9;
+  color: #9b9cb7;
 }
 /*# sourceMappingURL=main.css.map */
