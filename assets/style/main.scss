@@ -101,7 +101,7 @@ body {
   }
   .basic-card {
     @extend .master-card;
-    background: $white;
+    background: $medpur;
     .name {
       color: $navy;
     }
@@ -115,6 +115,29 @@ body {
       p {
         color: $navy;
       }
+    }
+  }
+
+  .most-card {
+    @extend .master-card;
+    background: $medpur;
+    .name {
+      color: $navy;
+    }
+    .support {
+      color: $supportpur;
+    }
+    .price {
+      color: $navy;
+    }
+    .item-benefits {
+      p {
+        color: $white;
+      }
+    }
+
+    .btn {
+      background: $aqua;
     }
   }
 }
