@@ -1,41 +1,8 @@
-$purple: #563ad6;
-$aqua: #3abad6;
-$navy: #02044a;
-$white: #ffffff;
-$sofpur: #eaeaf4;
-$darpur: #777790;
-$medpur: #b4b5c9;
-$lilpur: #f9f9fb;
-$newpur: #9b9cb7;
-// $font-weights: (
-//   "regular": 400,
-//   "medium": 500,
-//   "semibold": 600,
-// );
+@import "./colors";
+@import "./buttons";
 
 body {
   font-family: "Rubik", sans-serif;
-}
-
-.btn-master {
-  width: 160px;
-  height: 50px;
-  padding: 14px 26px 15px 25px;
-  border-radius: 10px;
-  font-weight: 600;
-  border: 0;
-}
-
-.btn-primary {
-  @extend .btn-master;
-  color: $white;
-  background: $purple;
-}
-
-.btn-secondary {
-  @extend .btn-master;
-  color: $darpur;
-  background: $sofpur;
 }
 
 .navbar-tp {
@@ -60,6 +27,14 @@ body {
 .sales {
   padding-top: 100px;
   padding-left: 100px;
+
+  .brands {
+    text-align: center;
+    .brands-logo {
+      padding-top: 70px;
+      width: 724px;
+    }
+  }
   .copywriting {
     padding-left: 90px;
     .header {
